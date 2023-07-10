@@ -73,7 +73,8 @@ nav a {
 
     background-repeat: no-repeat;
     background-position: bottom right, top left;
-
+    background-size: auto, 80px;
+    
 
 
 }
@@ -102,7 +103,7 @@ nav a {
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 50px;
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -202,6 +203,13 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 35px;
    
     
 }
@@ -231,4 +239,8 @@ footer{
     width: 100%;
 
 }
-.contact input
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
